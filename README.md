@@ -53,12 +53,14 @@ Install the following libraries:
 
 ### Execution
 - The code is implemented in Python using Jupyter Notebook.
-- Run the `FinalVgg_with_GAN.ipynb` notebook for training and evaluation.
+- Run the `VGG-16 with GAN` notebook for training and evaluation.
 
 ## **Repository Structure**
 - `README.md`: This file, providing an overview of the project.
-- `FinalVgg_with_GAN.ipynb`: Jupyter Notebook containing the training and evaluation code.
+- `VGG-16 with GAN`: Jupyter Notebook containing the training and evaluation code.
 - `synthetic_images/`: Folder with synthetic images generated using GANs.
+- `RESNET`: File containing the code of the resnet architecture.
+- `GAN to Generate CIFAR100 synthetic images`: The file contains the code which is used to generate synthetic images.
 
 ## **References**
 For additional details on GANs and VGG-16, refer to:
@@ -66,5 +68,3 @@ For additional details on GANs and VGG-16, refer to:
 - Karen Simonyan and Andrew Zisserman, "Very Deep Convolutional Networks for Large-Scale Image Recognition."
 
 ---
-This project demonstrates the synergistic potential of GANs and CNNs in image classification tasks, providing a robust pipeline for augmenting and analyzing datasets.
-
